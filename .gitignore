@@ -1,0 +1,27 @@
+# Dependencias
+node_modules/
+
+# Resultados de pruebas (Cypress genera esto automáticamente)
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+# Logs de errores y depuración
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+cypress.log
+
+# Reportes (si usas mochawesome o similares)
+cypress/reports/
+mochawesome-report/
+.nyc_output/
+
+# Configuración personal y secretos
+.env
+cypress.env.json
+
+# Archivos de sistema y editores
+.DS_Store
+.vscode/
+.idea/

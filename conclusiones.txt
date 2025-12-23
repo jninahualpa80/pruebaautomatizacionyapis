@@ -1,0 +1,3 @@
+Se realizo las 2 pruebas lo más funcional posible
+Se siguió las mejores practicas para subir al GitLab
+en la prueba de del API hay un poco de inestabilidad en el servicio

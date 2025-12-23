@@ -1,0 +1,90 @@
+{
+  "info": {
+    "name": "LOGIN_DEMOBLAZE",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Crear Usuario",
+      "event": [],
+      "request": {
+        "method": "POST",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "https://api.demoblaze.com/signup",
+          "protocol": "https",
+          "host": [
+            "api",
+            "demoblaze",
+            "com"
+          ],
+          "path": [
+            "signup"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"username\": \"PRUEBA2JJ\",\n    \"password\": \"UFJVRUJBSko=\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Login Usuario",
+      "event": [],
+      "request": {
+        "method": "POST",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "https://api.demoblaze.com/login",
+          "protocol": "https",
+          "host": [
+            "api",
+            "demoblaze",
+            "com"
+          ],
+          "path": [
+            "login"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"username\": \"PRUEBA2JJ\",\n    \"password\": \"UFJVRUJBSko=\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "username",
+      "value": "",
+      "type": "default"
+    },
+    {
+      "key": "password",
+      "value": "",
+      "type": "default"
+    }
+  ]
+}
