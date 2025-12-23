@@ -14,5 +14,5 @@ Ejercicio 2
 	Crear un nuevo usuario
 	crear un usuario existente
 	usuario y password correctos
-	usuario y password incorrecto.
+	usuario y password incorrecto .
 
